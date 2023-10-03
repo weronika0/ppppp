@@ -14,6 +14,8 @@
 		3FB62FC72ACC4571000E01CE /* pppppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FB62FC62ACC4571000E01CE /* pppppTests.swift */; };
 		3FB62FD12ACC4571000E01CE /* pppppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FB62FD02ACC4571000E01CE /* pppppUITests.swift */; };
 		3FB62FD32ACC4571000E01CE /* pppppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FB62FD22ACC4571000E01CE /* pppppUITestsLaunchTests.swift */; };
+		3FB62FE02ACC45D9000E01CE /* MyTF.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FB62FDF2ACC45D9000E01CE /* MyTF.swift */; };
+		3FB62FE42ACC499B000E01CE /* MyFunctions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FB62FE32ACC499B000E01CE /* MyFunctions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +46,8 @@
 		3FB62FCC2ACC4571000E01CE /* pppppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = pppppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3FB62FD02ACC4571000E01CE /* pppppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = pppppUITests.swift; sourceTree = "<group>"; };
 		3FB62FD22ACC4571000E01CE /* pppppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = pppppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		3FB62FDF2ACC45D9000E01CE /* MyTF.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyTF.swift; sourceTree = "<group>"; };
+		3FB62FE32ACC499B000E01CE /* MyFunctions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyFunctions.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +102,8 @@
 				3FB62FB72ACC4570000E01CE /* ContentView.swift */,
 				3FB62FB92ACC4571000E01CE /* Assets.xcassets */,
 				3FB62FBB2ACC4571000E01CE /* Preview Content */,
+				3FB62FDF2ACC45D9000E01CE /* MyTF.swift */,
+				3FB62FE32ACC499B000E01CE /* MyFunctions.swift */,
 			);
 			path = ppppp;
 			sourceTree = "<group>";
@@ -258,7 +264,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				3FB62FB82ACC4570000E01CE /* ContentView.swift in Sources */,
+				3FB62FE02ACC45D9000E01CE /* MyTF.swift in Sources */,
 				3FB62FB62ACC4570000E01CE /* pppppApp.swift in Sources */,
+				3FB62FE42ACC499B000E01CE /* MyFunctions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
